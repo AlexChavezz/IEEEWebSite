@@ -1,0 +1,30 @@
+.footer {
+    min-height: 200px;
+    box-shadow: 2px 0px 5px #ccc;
+}
+.socialContainer {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px 0px;
+}
+.socialLink {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+}
+.socialImage {
+    margin:20px;
+    width:50px;
+}
+.copyRight {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.copyRight p {
+    font-weight:bold;
+    font-size: 14px;
+    text-align:center;
+}

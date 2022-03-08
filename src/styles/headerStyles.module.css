@@ -1,0 +1,52 @@
+.header {
+    height: 75px;
+    box-shadow: 0px 2px 5px #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContent {
+    width: 1250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerImage {
+    width: 150px;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+}
+
+.secoundListContainer {
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.navListItem {
+    padding: 0px 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.listStylesList {
+    padding: 20px 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.navLink {
+    padding-bottom: 5px;
+    color: black;
+}
+
+.activeLink {
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightblue;
+}
